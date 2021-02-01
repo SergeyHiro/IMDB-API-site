@@ -94,7 +94,6 @@ echo "<table border=1 style='margin-left: auto;margin-right: auto'>" .
 "</h4></td><td rowspan=4> <img src='" . $json->d[$x]->i[0] ."' alt='Нет картинки' width=198 height=292></td></tr>" .
 "<tr><td class=leftcol>Актеры: " . $json->d[$x]->s . "</td><td ></td></tr>".
 "<tr><td class=leftcol>Год: " . $json->d[$x]->y .  "</td><td ></td></tr>".
-"<tr><td class=leftcol>Хронометраж: " . $json->d[0]->v[0]->s . "</td><td ></td></tr>" .
 "</table><br>";
 }
 
